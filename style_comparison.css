@@ -1,0 +1,28 @@
+.page-title{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+
+}
+.main_body{
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+.comparison_wrap{
+    background-color: white;
+    padding: 70px;
+    margin: auto;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.second_row{
+    margin: auto;
+    background-color: white;
+    border: white;
+
+}
