@@ -1,0 +1,47 @@
+.page-title{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+
+}
+.main_body{
+    background-color: rgb(236, 236, 236);
+}
+
+
+.main_img{
+
+    padding: 5px;
+    width: 300px;
+
+}
+
+.vis_img{
+    width: 160px;
+}
+
+
+.first_container{
+    padding-left: 70px;
+}
+
+.summary_wrap{
+    background-color: white;
+    padding: 50px;
+    margin-left: 15px;
+}
+
+.vis_wrap{
+    background-color: white;
+    padding: 50px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+
+}
+
+
+
+@media (max-width: 1000px){
+ 
+
+}
