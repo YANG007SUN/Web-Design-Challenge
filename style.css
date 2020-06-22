@@ -26,7 +26,7 @@
     position: absolute;
     margin-left: 0px;
     margin-right: 0px;
-    position: center;
+
     
 }
 
@@ -39,6 +39,7 @@
 }
 
 
+
 .summary_wrap{
     padding: 40px;
     background-color: white;
@@ -46,21 +47,42 @@
 
 .vis_wrap{
     padding: 70px;
-    margin-left: 30px;
-    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-right: 0px;
     background-color: white;
-
+    margin-left: 750px;
+    margin-top: 50px;
 
 }
 
-@media (max-width: 880px) {
+.second_row_container{
+    visibility: hidden;
+}
+
+.summary_wrap_small{
+    visibility: hidden;
+}
+
+@media (max-width: 1000px) {
     .second_row_container{
         visibility: visible;
+
     }
 
     .vis_wrap{
         visibility: hidden;
     }
     
+    .summary_wrap_small{
+
+        visibility: visible;
+        background-color: white;
+        padding: 40px;
+    }
+
+    .summary_wrap{
+        visibility: hidden;
+    }
+
 
 }
